@@ -26,7 +26,6 @@ import subprocess
 # Install streamlit using pip
 subprocess.run(["pip", "install", "streamlit"])
 
-pip install --upgrade pip
 
 """# **A. Regression & Clustering**
 
