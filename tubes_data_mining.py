@@ -20,21 +20,6 @@ Prodi Teknik Informatika
 
 Universitas Tadulako
 """
-# Instalasi Streamlit di Google Colab
-!pip install streamlit
-
-# Buat aplikasi Streamlit
-%%writefile app.py
-import streamlit as st
-
-def main():
-    st.title('Aplikasi Streamlit di Google Colab')
-    st.write('Selamat datang di aplikasi ini!')
-
-if __name__ == '__main__':
-    main()
-
-
 
 """# **A. Regression & Clustering**
 
