@@ -4,5 +4,6 @@ seaborn
 matplotlib
 plotly
 pandas
-jobli
+xml.etree.ElementTree
 sklearn
+nltk
