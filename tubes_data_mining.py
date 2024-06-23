@@ -28,6 +28,11 @@ Universitas Tadulako
 Memilih cuaca terekstream
 """
 
+#core Pkg
+import streamlit as st
+import streamlit.components.v1 as stc
+from PIL import image
+
 # Unggah file XML
 from google.colab import files
 uploaded = files.upload()
