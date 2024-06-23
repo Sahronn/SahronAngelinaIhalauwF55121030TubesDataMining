@@ -21,7 +21,11 @@ Prodi Teknik Informatika
 Universitas Tadulako
 """
 
-! pip instal streamlit
+import subprocess
+
+# Install streamlit using pip
+subprocess.run(["pip", "install", "streamlit"])
+
 
 """# **A. Regression & Clustering**
 
