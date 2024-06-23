@@ -20,13 +20,13 @@ Prodi Teknik Informatika
 
 Universitas Tadulako
 """
-
+!pip install google-colab
 import subprocess
 
 # Install streamlit using pip
 subprocess.run(["pip", "install", "streamlit"])
 
-!pip install google-colab
+
 
 """# **A. Regression & Clustering**
 
