@@ -7,3 +7,4 @@ pandas
 xml.etree.ElementTree
 scikit-learn
 nltk
+Pillow
