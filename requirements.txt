@@ -5,5 +5,5 @@ matplotlib
 plotly
 pandas
 xml.etree.ElementTree
-sklearn
+scikit-learn
 nltk
