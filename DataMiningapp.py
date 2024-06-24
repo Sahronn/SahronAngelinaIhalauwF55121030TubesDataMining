@@ -33,12 +33,12 @@ import streamlit as st
 import streamlit.components.v1 as stc
 # from PIL import image
 
-# Unggah file XML
-from google.colab import files
-uploaded = files.upload()
+# # Unggah file XML
+# from google.colab import files
+# uploaded = files.upload()
 
 import xml.etree.ElementTree as ET
-
+file_path = 'DigitalForecast-KalimantanTengah.xml'
 # Memuat file XML
 tree = ET.parse('DigitalForecast-KalimantanTengah.xml')
 root = tree.getroot()
