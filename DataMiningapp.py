@@ -42,7 +42,11 @@ file_path = 'DigitalForecast-KalimantanTengah.xml'
 # Memuat file XML
 tree = ET.parse('DigitalForecast-KalimantanTengah.xml')
 root = tree.getroot()
+except FileNotFoundError:
+    print(f"Error: File '{file_path}' not found.")
 
+except ET.ParseError as e:
+    print(f"Error parsing XML: {e}")
 # Debugging: Cetak struktur XML
 def print_element(element, level=0):
     indent = "  " * level
